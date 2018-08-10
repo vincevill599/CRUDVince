@@ -1,0 +1,58 @@
+#formNewRecord{
+    font-family: Arial;
+    font-size: 20;
+    font-weight: 100;
+    text-align: center;
+}
+
+#backButton{
+    font-family: Friday13;
+}
+
+input {
+    width: 50%;
+}
+
+#submitButton{
+    font-family: Wide Awake;
+    font-size: 30px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid rgb(106, 62, 230);
+    border-radius: 4px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(106, 62, 230);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #017c01; 
+    color: white;
+    margin-bottom: 15px;
+    opacity: 50%;
+}

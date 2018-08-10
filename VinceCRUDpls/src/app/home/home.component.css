@@ -1,0 +1,68 @@
+table, th, td {
+    border: 1px solid black;
+ }
+
+ table {
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    font-family: Arial;
+}
+
+th {
+    height: 50px;
+    padding: 15px
+}
+
+td {
+    height: 50px;
+    padding: 15px;
+}
+
+tr:nth-child(odd) {
+    background-color: #e2e1e1;
+}
+
+th {
+    background-color: rgb(106, 62, 230);
+    color: white;
+    font-family: Wide Awake;
+    font-size: 30px;
+}
+
+#System_Title{
+    font-family: Wide Awake;
+    font-size: 50px;
+    text-shadow: 3px 2px rgb(219, 175, 230);
+}
+
+#deleteButton{
+    width: 20%;
+    height: 45%;
+    padding: 0;
+    margin: 0;
+}
+
+#updateButton{
+    width: 30%;
+    height: 45%;
+}
+
+#addMoreButton{
+    font-family: Friday13;
+    font-size: 30px;
+    text-shadow: 3px 2px rgb(219, 175, 230);
+}
+
+
+h3{
+    font-family: Arial;
+}
+
+img:hover{
+    cursor:pointer;
+}
+
+deleteCell{
+    width: 50%;
+}

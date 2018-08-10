@@ -1,0 +1,29 @@
+@font-face{
+    font-family:Wide Awake;
+    src:url(WIDEAWAKE.TTF);
+}
+
+@font-face{
+    font-family:Friday13;
+    src:url(Friday13BonusFI.ttf);
+}
+#Page_Header{
+    background: linear-gradient(rgb(240, 123, 201), rgb(5, 180, 238));
+    height: 100%;
+    font-family: Wide Awake;
+    text-align: center;
+    color: white;
+    vertical-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-shadow: 3px 2px rgb(207, 15, 255);
+    font-size: 25px;
+}
+
+footer{
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+}

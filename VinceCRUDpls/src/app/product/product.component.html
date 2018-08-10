@@ -1,0 +1,26 @@
+<h3 id="backButton"><a routerLink = "/">← <u>Go back to Homepage</u></a></h3>
+
+
+
+<form id="formNewRecord" name="formNewRecord" #productData = "ngForm" (ngSubmit) = "addNewProduct(productData.value)">
+  <label><u><b>Fill up the FF:</b></u></label><br>
+  <br>
+  <label><b>ID: </b></label><br>
+  <br>
+  <input type="text" id="id" name="id" placeholder="User ID" ngModel><br>
+  <br>
+  <label><b>Name: </b></label><br>
+  <br>
+  <input type="text" id="name" name="name" placeholder="User Name" ngModel><br>
+  <br>
+  <label><b>Nationality: </b></label><br>
+  <br>
+  <input type="text" id="nationality" name="nationality" placeholder="User Nationality" ngModel><br>
+  <br>
+  <input type="submit" value="Add User" id="submitButton">
+
+  <div class="alert" *ngIf="addSuccess">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+    {{ confirmationAlert }}
+  </div>
+</form>

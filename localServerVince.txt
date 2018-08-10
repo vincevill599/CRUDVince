@@ -1,0 +1,3 @@
+json-server -p 5555 products.json
+
+:)

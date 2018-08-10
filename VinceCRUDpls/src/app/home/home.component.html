@@ -1,0 +1,28 @@
+<h2 id="System_Title" align="center">Company Masterlist</h2>
+<h3 align="center" id="addMoreButton">Click <u><a routerLink = '/product'>Here</a></u> if you wish to add more Users to the Table</h3>
+<br>
+<div style="overflow-x:auto;" id="dataTable">
+<table align = "center" id = "Users_Table">
+  <th>ID</th>
+  <th>Name</th>
+  <th>Nationality</th>
+  <th>Delete<br />Records</th>
+  <th>Update<br />Records</th>
+  
+  <tr *ngFor="let product of products">
+    <td>{{ product.id }}</td>
+    <td>{{ product.name }}</td>
+    <td>{{ product.nationality }}</td>
+    <td (click) = "deleteRecord(product.id)" id="deleteCell">
+      <a><img src="https://findicons.com/files/icons/2015/24x24_free_application/24/delete.png" id="deleteButton" /></a>
+    </td>
+    <td [routerLink]="['/recordUpdating', product.id]" id="updateCell">
+        <a><img src="https://findicons.com/files/icons/1035/human_o2/32/gtk_edit.png" id="updateButton" /></a>
+      </td>
+  </tr>
+</table>
+</div>
+
+
+
+

@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "name": "Vince",
+      "nationality": "Filipino",
+      "id": "1"
+    },
+    {
+      "id": "3",
+      "name": "Dahyun",
+      "nationality": "Korean"
+    },
+    {
+      "id": "5",
+      "name": "Alvin",
+      "nationality": "Filipino"
+    },
+    {
+      "id": "6",
+      "name": "Coy",
+      "nationality": "Filipino"
+    },
+    {
+      "id": "7",
+      "name": "Arielle",
+      "nationality": "Filipino"
+    },
+    {
+      "id": "8",
+      "name": "Kong",
+      "nationality": "Hasky"
+    },
+    {
+      "id": "9",
+      "name": "Ace",
+      "nationality": "Shih Tzu"
+    },
+    {
+      "id": "10",
+      "name": "Neo",
+      "nationality": "Filipino"
+    }
+  ]
+}
